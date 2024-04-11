@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('lib/BackgroundImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    line-height: 1.6; 
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 5em; 
+    margin: 0;
+    text-align: center;
+    line-height: 1.2; 
+}
+
+p {
+    font-size: 1.5em; 
+    color: #C0C0C0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+}
+
+.section {
+    text-align: center;
+    margin: auto;
+}
+
+.circle:hover .liquid {
+    top: -200px;
+}
+
+form {
+    background-color: #444;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    box-sizing: border-box;
+    transition: background-color 0.3s; 
+}
+
+form:hover {
+    background-color: #555; 
+}
+
+input[type="text"] {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+input[type="text"]:focus::placeholder {
+    color: #999;
+}
+
+#searchResults {
+    background-color: #222;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#editFormContainer {
+    background-color: #444;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: none;
+}
